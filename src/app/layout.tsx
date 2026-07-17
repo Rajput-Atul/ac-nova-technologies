@@ -4,6 +4,7 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
+import { GoogleAnalytics } from "@/components/GoogleAnalytics";
 import { JsonLd } from "@/components/JsonLd";
 import { siteConfig } from "@/data/site-config";
 import "@/styles/globals.css";
@@ -109,21 +110,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        {/* Google Analytics */}
-        <script
-          async
-          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`}
-        ></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}');
-            `,
-          }}
-        ></script>
+        {/* Google Analytics handled by <GoogleAnalytics /> in <body> */}
         
         {/* Additional Meta Tags */}
         <meta name="theme-color" content="#4f46e5" />
@@ -137,6 +124,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       </head>
       <body className={`${inter.className} antialiased`}>
+        <GoogleAnalytics />
         <ThemeProvider>
           <JsonLd />
           <Navbar />
