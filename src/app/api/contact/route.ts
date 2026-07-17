@@ -18,8 +18,8 @@ function escapeHtml(text: string): string {
 const allowedOrigins = [
   process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000",
   "http://localhost:3000",
-  "https://acnovatech.com",
-  "https://www.acnovatech.com",
+  "https://ac-nova-technologies.vercel.app",
+  "https://www.ac-nova-technologies.vercel.app",
 ];
 
 function createCorsHeaders(request: NextRequest): HeadersInit {

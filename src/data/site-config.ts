@@ -3,7 +3,7 @@ import { NavItem, SocialLink } from "@/types";
 export const siteConfig = {
   name: "AC Nova Technologies",
   description: "Premium software agency helping businesses grow with modern technology.",
-  url: "https://acnovatech.com",
+  url: "https://ac-nova-technologies.vercel.app",
   phone: "+91 93245 96187",
   email: "atulchauhan223222@gmail.com",
   address: "Mumbai, Maharashtra, India",
