@@ -73,7 +73,7 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/icon.jpg",
         width: 1200,
         height: 630,
         alt: siteConfig.name,
@@ -85,7 +85,7 @@ export const metadata: Metadata = {
     title: `${siteConfig.name} | Premium Software Agency`,
     description:
       "Premium websites, e-commerce stores, custom software, and mobile apps designed to attract more customers, increase sales, and save you time.",
-    images: ["/og-image.jpg"],
+    images: ["/icon.jpg"],
     creator: "@acnovatech",
   },
   verification: {

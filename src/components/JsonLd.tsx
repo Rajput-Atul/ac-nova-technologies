@@ -54,7 +54,7 @@ export function JsonLd() {
       siteConfig.social.github,
     ],
     "logo": `${siteConfig.url}/logo.png`,
-    "image": `${siteConfig.url}/og-image.jpg`,
+    "image": `${siteConfig.url}/icon.jpg`,
   };
 
   // Services Schema
