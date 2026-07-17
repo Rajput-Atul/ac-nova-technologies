@@ -1,5 +1,5 @@
 Contact: mailto:atulchauhan223222@gmail.com
 Expires: 2027-07-17T00:00:00Z
 Preferred-Languages: en
-Canonical: https://ac-nova-technologies-9vuecvny-rajput-atuls-projects.vercel.app/.well-known/security.txt
-Policy: https://ac-nova-technologies-9vuecvny-rajput-atuls-projects.vercel.app/privacy
+Canonical: https://ac-nova-technologies.vercel.app/.well-known/security.txt
+Policy: https://ac-nova-technologies.vercel.app/privacy
