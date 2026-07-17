@@ -88,7 +88,7 @@ export const metadata: Metadata = {
     creator: "@acnovatech",
   },
   verification: {
-    google: "your-google-verification-code", // Replace with actual code
+    google: "ZEpv3d-nw6t5MNMGCSXYPLWxKiKfcUW709gutLaWy3M",
   },
   alternates: {
     canonical: "/",
